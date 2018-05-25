@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Uber",
+    "email": "uber@support.com",
+    "apis": [
+      {
+        "filePath": "swagger_defs/uber_v1_archived.yml",
+        "status": "ARCHIVED"
+      },
+      {
+        "filePath": "swagger_defs/uber_v2.yml",
+        "status": "STABLE"
+      },
+      {
+        "filePath": "swagger_defs/uber_v3_beta.yml",
+        "status": "BETA"
+      }
+    ]
+  },
+  {
+    "name": "Pets",
+    "email": "pets@support.com",
+    "apis": [
+      {
+        "filePath": "swagger_defs/petstore.yml",
+        "status": "STABLE"
+      }
+    ]
+  }
+]
