@@ -7,6 +7,7 @@ import io.apicollab.seeder.dto.SeedApp;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.http.*;
 import org.springframework.stereotype.Component;
@@ -67,8 +68,8 @@ public class DataSeeder {
         return result;
     }
 
-    private FileSystemResource loadSwaggerSpec(String fileName) {
-        ClassLoader classLoader = getClass().getClassLoader();
-        return new FileSystemResource(classLoader.getResource(fileName).getPath());
+    private ClassPathResource loadSwaggerSpec(String fileName) {
+        //ClassLoader classLoader = getClass().getClassLoader();
+        return new ClassPathResource(fileName);
     }
 }
