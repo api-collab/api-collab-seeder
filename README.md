@@ -11,5 +11,5 @@ java -jar seeder-1.0-SNAPSHOT.jar
 ```
 By default seeder modules tries to connect to api-collab-server instance at 8080 port on localhost. These defaults can be overridden as below
 ```
-java -jar seeder-1.0-SNAPSHOT.jar --api.portal.host=<jost> --api.portal.port=<port>
+java -jar seeder-1.0-SNAPSHOT.jar --api.portal.host=<host> --api.portal.port=<port>
 ```
