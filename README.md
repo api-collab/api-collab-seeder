@@ -1,4 +1,4 @@
-Populate api-portal-server with few sample APIs. Useful for developers during development
+Populate [api-collab-server](https://github.com/api-collab/api-collab-server) instance with few sample APIs. Useful for developers during development
 
 # Prerequisites
 * [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html) 8 or above
@@ -9,7 +9,7 @@ Populate api-portal-server with few sample APIs. Useful for developers during de
 ```
 java -jar seeder-1.0-SNAPSHOT.jar
 ```
-By default seeder modules tries to connect to api-collab-server instance at 8080 port on localhost. These defaults can be overridden as below
+By default seeder modules tries to connect to [api-collab-server](https://github.com/api-collab/api-collab-server) instance at 8080 port on localhost. These defaults can be overridden as below
 ```
 java -jar seeder-1.0-SNAPSHOT.jar --api.portal.host=<host> --api.portal.port=<port>
 ```
